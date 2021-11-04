@@ -7,9 +7,17 @@ The FID implementation is inspired from [pytorch-fid](https://github.com/mseitze
 
 This repository is developed for personal research. If you think this package can also benefit your life, please feel free to open issues.
 
+Multiple image input types supported, and is now OpenCV based for image data handling.
+
+New supported image sources:
+  - python io streams
+  - base64 encoded images
+  - .pt files
+
+
 ## Install
 ```
-pip install pytorch-gan-metrics
+pip install git+https://github.com/JohnnyRacer/pytorch-gan-metrics
 ```
 
 ## Feature
